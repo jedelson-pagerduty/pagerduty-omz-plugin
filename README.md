@@ -1,6 +1,6 @@
 # Oh My Zsh Plugin for PagerDuty CLI
 
-Automatically installed autocompletion for [https://github.com/martindstone/pagerduty-cli](pagerduty-cli).
+Automatically installs autocompletion for [https://github.com/martindstone/pagerduty-cli](pagerduty-cli).
 
 ## Installation
 
