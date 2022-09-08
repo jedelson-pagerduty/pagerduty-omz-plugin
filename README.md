@@ -9,7 +9,7 @@ Automatically installs autocompletion for [https://github.com/martindstone/pager
 git clone https://github.com/jedelson-pagerduty/pagerduty-omz-plugin.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/pagerduty
 ```
 
-2. Activate the plugin in ~/.zshrc:
+2. Activate the plugin in `~/.zshrc`:
 ```
 plugins=( [plugins...] pagerduty)
 ```
@@ -28,9 +28,11 @@ plugins=( [plugins...] pagerduty)
     refreshPeriod = "168h"
 ```
 
+> If you use an alternate `ZSH_CUSTOM` location, specify that instead.
+
 2. Run `chezmoi apply`
 
-3. Activate the plugin in ~/.zshrc:
+3. Activate the plugin in `~/.zshrc`:
 ```
 plugins=( [plugins...] pagerduty)
 ```
